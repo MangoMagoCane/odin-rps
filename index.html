@@ -4,10 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Roshambo</title>
-
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
-        
+        <div class="grid">
+            <p id="pScore"></p>
+            <p id="cScore"></p>
+            <p></p>
+            <p></p>
+
+        </div>
+        <div id="selectionContainer">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+        <p id="playerChoice"></p>
+        <button id="startRound">Play Round</button> 
     </body>
 </html>

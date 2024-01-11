@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: auto;
+    width: 25%;
+}
+
+#selectionContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 14%;
+}
+
+/* body * {
+    border: 2px solid green;
+} */
